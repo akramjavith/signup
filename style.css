@@ -100,3 +100,48 @@ input{
     padding: 5px;
     font-size: 1rem;
 }
+input:focus{
+    box-shadow: 2px 4px 10px lightgray;
+}
+
+input[type="text"]:focus{
+    outline-color: blue;
+}
+input[type="password"]:focus{
+    outline-color: red;
+}
+
+button{
+    color: white;
+    margin-left: 50px;
+    background-color: #596d48;
+    padding: 15px 35px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 4px 10px lightgray;
+    margin-bottom: 15px;
+}
+
+
+button + p{
+    margin-left: 50px;
+    font-size: 1.1rem;
+}
+
+span{
+    color: #596D48;
+    font-weight: 600;
+    cursor: pointer;
+}
+.password-alert{
+    font-size: .8rem;
+    color: red;
+    display: none;
+}
+
+h2{
+    margin: 0;
+    font-size: 2rem;
+}
