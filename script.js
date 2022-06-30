@@ -11,7 +11,7 @@ password.addEventListener("keyup", e => {
 confirm.addEventListener("keyup", e => {
     if(password.value == confirm.value){
         alert.style.display = "none";
-        document.querySelector('input[type="password"]:focus');
-        alret.style.outlineColor = "green";
+        
+       
     }
 })
